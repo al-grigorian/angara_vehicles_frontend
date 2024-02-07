@@ -21,7 +21,7 @@ function App() {
 
                 <div className="content-wrapper">
 
-                    <BrowserRouter basename="/hangar">
+                    <BrowserRouter>
 
                         <Breadcrumbs selectedVehicle={selectedVehicle} setSelectedVehicle={setSelectedVehicle}/>
 
